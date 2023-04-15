@@ -34,7 +34,18 @@
                             <constraint firstItem="FAc-df-4b1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ihi-oE-NvF"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="7V9-oW-F18"/>
+                    <navigationItem key="navigationItem" id="7V9-oW-F18">
+                        <barButtonItem key="leftBarButtonItem" systemItem="add" id="pQT-Vp-j0M">
+                            <connections>
+                                <action selector="plusButtonTapped:" destination="BYZ-38-t0r" id="pbc-zt-crx"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Info" image="info.circle" catalog="system" id="l2J-sA-h2w">
+                            <connections>
+                                <action selector="infoButtonTapped:" destination="BYZ-38-t0r" id="02Z-Q1-EZw"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="darkThemeButton" destination="FAc-df-4b1" id="xJn-1n-ge2"/>
                     </connections>
@@ -63,6 +74,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="info.circle" catalog="system" width="128" height="123"/>
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

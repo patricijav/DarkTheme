@@ -38,9 +38,18 @@ class ThemeViewController: UIViewController {
         flipDarkTheme(isOn: darkIsOn)
     }
     
+    @IBAction func plusButtonTapped(_ sender: Any) {
+        basicAlert(title: "Add New?", message: "Do you want to add new...?")
+    }
+    
+    
+    @IBAction func infoButtonTapped(_ sender: Any) {
+        basicActionAlert(title: "Action Sheet is On!", message: "All good here")
+    }
+    
     func flipDarkTheme(isOn: Bool) {
         // Changing the parameters
-        darkIsOn = !darkIsOn
+        darkIsOn = !darkIsOn  // We can also use .toggle()
         mainText = getDarkModeStateText(isOn: darkIsOn)
         textColor = invertColor(theColor: textColor!)
         backgroundColor = invertColor(theColor: backgroundColor!)

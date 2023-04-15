@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5063532529EAC31D00FC07AC /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5063532429EAC31D00FC07AC /* Extension.swift */; };
 		509E3EB529E6A551007EEF7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509E3EB429E6A551007EEF7D /* AppDelegate.swift */; };
 		509E3EB729E6A551007EEF7D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509E3EB629E6A551007EEF7D /* SceneDelegate.swift */; };
 		509E3EB929E6A551007EEF7D /* ThemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509E3EB829E6A551007EEF7D /* ThemeViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5063532429EAC31D00FC07AC /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		509E3EB129E6A551007EEF7D /* DarkTheme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarkTheme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		509E3EB429E6A551007EEF7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		509E3EB629E6A551007EEF7D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5063532129EABF7A00FC07AC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5063532329EAC2E800FC07AC /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5063532429EAC31D00FC07AC /* Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		509E3EA829E6A551007EEF7D = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +73,11 @@
 		509E3EB329E6A551007EEF7D /* DarkTheme */ = {
 			isa = PBXGroup;
 			children = (
+				5063532329EAC2E800FC07AC /* Extension */,
 				509E3EC829E6B35E007EEF7D /* AppDelegate */,
-				509E3EC929E6BD14007EEF7D /* Controller */,
+				5063532129EABF7A00FC07AC /* Model */,
 				509E3ECA29E6BD2C007EEF7D /* View */,
+				509E3EC929E6BD14007EEF7D /* Controller */,
 				509E3EBD29E6A554007EEF7D /* Assets.xcassets */,
 				509E3EC229E6A554007EEF7D /* Info.plist */,
 			);
@@ -165,6 +184,7 @@
 				509E3EB929E6A551007EEF7D /* ThemeViewController.swift in Sources */,
 				509E3EB529E6A551007EEF7D /* AppDelegate.swift in Sources */,
 				509E3EB729E6A551007EEF7D /* SceneDelegate.swift in Sources */,
+				5063532529EAC31D00FC07AC /* Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
