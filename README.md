@@ -1,5 +1,7 @@
 # DarkTheme
 
+This repository contains the 7th homework from Accenture iOS Bootcamp 2023, to view all homework, visit [this repository](https://github.com/patricijav/HomeWorks).
+
 ### Screenshots from the app:
 
 Light mode:
